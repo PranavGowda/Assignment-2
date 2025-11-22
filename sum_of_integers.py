@@ -1,3 +1,4 @@
-for i in range(1,51):
-    x=(sum(range(1,51)))
-print(f"the sum of numbers from 1 to 50 is {x}")
+total_sum = 0
+for number in range(1, 51):
+    total_sum += number
+print("The sum of numbers from 1 to 50 is:", total_sum)
